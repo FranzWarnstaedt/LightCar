@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 #include "Account.h"
 
 using namespace std;
@@ -9,7 +8,6 @@ using namespace std;
 int main(){
 
     cout << "Bitte legen Sie einen Account an" << endl;
-
     Account test;
     test.CreateAccount();
 
