@@ -4,17 +4,17 @@
 #include "Account.h"
 
 using namespace std;
-
+/*
 Account::Account()
 : AccountName("Test"), AccountPassword("test")
 {
-
+    CreateAccount();
 }
 
 Account::~Account(){
 
 }
-
+*/
 void Account::CreateAccount(){
     string PassowrdCompare;
 

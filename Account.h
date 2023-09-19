@@ -1,11 +1,15 @@
+#ifndef ACCOUNT_H
+#define ACCOUNT_H
 #include <string>
 
 using namespace std;
 
+class Account;
+
 class Account {
     public:
-        Account();
-        ~Account();
+       // Account();
+       // ~Account();
         void CreateAccount();
         void getName();
         void getPassword();
@@ -16,3 +20,5 @@ class Account {
         string AccountName;
         string AccountPassword;
 };
+
+#endif
